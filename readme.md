@@ -37,6 +37,9 @@ Passo 3 – Operações com Clientes
 
 Com o token devidamente configurado, é possível realizar operações no endpoint /clientes.
 
+<img width="940" height="776" alt="image" src="https://github.com/user-attachments/assets/911dffdd-5c45-4870-9c89-2a7fbda1863c" />
+
+
 Envie o seguinte JSON no corpo da requisição para o método post:
 
 {
