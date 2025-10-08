@@ -1,0 +1,38 @@
+
+{
+  "nome": "JUNIN",
+  "cpf": "11111111111",
+  "endereco": {
+    "cep": "20010-000",
+    "logradouro": "Rua Primeiro de Março",
+    "bairro": "Centro",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "complemento": "Sala 5"
+  },
+  "telefones": [
+    {
+      "numero": "21987654321",
+      "tipo": "CELULAR"
+    },
+    {
+      "numero": "21987654321",
+      "tipo": "RESIDENCIAL"
+    }
+  ],
+  "emails": [
+    "carla.mendes@example.com",
+    "c.mendes@example.com"
+  ]
+}
+
+
+
+script para inserir usuario no banco =
+
+1 - usuario admin
+insert into usuario values (1,'admin@gmail.com','ROLE_ADMIN','$2a$10$IKxRTEDEWDPQi/Z5GSCpJefiESBRp/CoLdFjlZ98ucT.9X8vxOpfS');
+
+2- usuario padrao
+
+insert into usuario values (3,'usuarioteste@gmail.com','ROLE_USER','$2a$10$wiTOT9oJ4yOyYhp1CZjVrucyizSgCjitAmxaylzR2bP88Y.AkM.lK');
