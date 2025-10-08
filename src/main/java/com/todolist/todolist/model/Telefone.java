@@ -10,7 +10,7 @@ import lombok.Data;
 public class Telefone {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Enumerated(EnumType.STRING)

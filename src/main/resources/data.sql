@@ -8,11 +8,11 @@ VALUES
 ('João Souza', '55566677788', 'Rua XV de Novembro, 75', 'Centro', 'Curitiba', 'PR', '80020-310', NULL);
 
 -- Inserir telefones (usando a sequência gerada pelo Hibernate)
-INSERT INTO telefone (id, numero, tipo) VALUES
-(1, '11987654321', 'CELULAR'),
-(2, '1123456789', 'RESIDENCIAL'),
-(3, '21999998888', 'CELULAR'),
-(4, '4133221100', 'COMERCIAL');
+INSERT INTO telefone ( numero, tipo) VALUES
+('11987654321', 'CELULAR'),
+('1123456789', 'RESIDENCIAL'),
+('21999998888', 'CELULAR'),
+('4133221100', 'COMERCIAL');
 
 
 -- Vincular clientes e telefones
